@@ -22,7 +22,7 @@ $(document).ready(function(){
 
 				$('#data').append('<tr><td>'+val.name+'</td>'+
 						'<td>'+val.category+'</td>'+
-						'<td><a href="/show/{{ $alls->id }}" class="btn btn-primary btn-sm">Show</a></td></tr>');
+						'<td><a href="/show/'+val.id+'" class="btn btn-primary btn-sm">Show</a></td></tr>');
 			});
 
 		});
